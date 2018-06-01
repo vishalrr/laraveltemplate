@@ -20,3 +20,5 @@ Route::get('/fullwid','Controller@fullwid')->name('fullwid');
 Route::get('/sideleft','Controller@sideleft')->name('sideleft');
 Route::get('/sideright','Controller@sideright')->name('sideright');
 Route::get('/basicgrid','Controller@basicgrid')->name('basicgrid');
+Route::get('/users','UserController@index')->name('users');
+
